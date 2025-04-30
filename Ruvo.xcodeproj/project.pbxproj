@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		D6A40BA22DC294B100073993 /* Ruvo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Ruvo.xcodeproj; sourceTree = "<group>"; };
+		D6A40BDB2DC29A0800073993 /* Ruvo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Ruvo.xcodeproj; sourceTree = "<group>"; };
 		D6C51B982DAEE64A00214A4C /* Ruvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C51BA52DAEE64D00214A4C /* RuvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuvoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C51BAF2DAEE64D00214A4C /* RuvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuvoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +75,11 @@
 
 /* Begin PBXGroup section */
 		D6A40BA32DC294B100073993 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6A40BDC2DC29A0800073993 /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +214,10 @@
 				{
 					ProductGroup = D6A40BA32DC294B100073993 /* Products */;
 					ProjectRef = D6A40BA22DC294B100073993 /* Ruvo.xcodeproj */;
+				},
+				{
+					ProductGroup = D6A40BDC2DC29A0800073993 /* Products */;
+					ProjectRef = D6A40BDB2DC29A0800073993 /* Ruvo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
