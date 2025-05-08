@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6C51BA62DAEE64D00214A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C51B902DAEE64A00214A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C51B972DAEE64A00214A4C;
+			remoteInfo = Ruvo;
+		};
+		D6C51BB02DAEE64D00214A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C51B902DAEE64A00214A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C51B972DAEE64A00214A4C;
+			remoteInfo = Ruvo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6A40BA22DC294B100073993 /* Ruvo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Ruvo.xcodeproj; sourceTree = "<group>"; };
+		D6A40BDB2DC29A0800073993 /* Ruvo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Ruvo.xcodeproj; sourceTree = "<group>"; };
+		D6C51B982DAEE64A00214A4C /* Ruvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C51BA52DAEE64D00214A4C /* RuvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuvoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C51BAF2DAEE64D00214A4C /* RuvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuvoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6C51B9A2DAEE64A00214A4C /* Ruvo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ruvo;
+			sourceTree = "<group>";
+		};
+		D6C51BA82DAEE64D00214A4C /* RuvoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RuvoTests;
+			sourceTree = "<group>";
+		};
+		D6C51BB22DAEE64D00214A4C /* RuvoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RuvoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C51B952DAEE64A00214A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C51BA22DAEE64D00214A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C51BAC2DAEE64D00214A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6A40BA32DC294B100073993 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6A40BDC2DC29A0800073993 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C51B8F2DAEE64A00214A4C = {
+			isa = PBXGroup;
+			children = (
+				D6C51B9A2DAEE64A00214A4C /* Ruvo */,
+				D6C51BA82DAEE64D00214A4C /* RuvoTests */,
+				D6C51BB22DAEE64D00214A4C /* RuvoUITests */,
+				D6C51B992DAEE64A00214A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C51B992DAEE64A00214A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C51B982DAEE64A00214A4C /* Ruvo.app */,
+				D6C51BA52DAEE64D00214A4C /* RuvoTests.xctest */,
+				D6C51BAF2DAEE64D00214A4C /* RuvoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C51B972DAEE64A00214A4C /* Ruvo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C51BB92DAEE64D00214A4C /* Build configuration list for PBXNativeTarget "Ruvo" */;
+			buildPhases = (
+				D6C51B942DAEE64A00214A4C /* Sources */,
+				D6C51B952DAEE64A00214A4C /* Frameworks */,
+				D6C51B962DAEE64A00214A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6C51B9A2DAEE64A00214A4C /* Ruvo */,
+			);
+			name = Ruvo;
+			packageProductDependencies = (
+			);
+			productName = Ruvo;
+			productReference = D6C51B982DAEE64A00214A4C /* Ruvo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C51BA42DAEE64D00214A4C /* RuvoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C51BBC2DAEE64D00214A4C /* Build configuration list for PBXNativeTarget "RuvoTests" */;
+			buildPhases = (
+				D6C51BA12DAEE64D00214A4C /* Sources */,
+				D6C51BA22DAEE64D00214A4C /* Frameworks */,
+				D6C51BA32DAEE64D00214A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C51BA72DAEE64D00214A4C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6C51BA82DAEE64D00214A4C /* RuvoTests */,
+			);
+			name = RuvoTests;
+			packageProductDependencies = (
+			);
+			productName = RuvoTests;
+			productReference = D6C51BA52DAEE64D00214A4C /* RuvoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C51BAE2DAEE64D00214A4C /* RuvoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C51BBF2DAEE64D00214A4C /* Build configuration list for PBXNativeTarget "RuvoUITests" */;
+			buildPhases = (
+				D6C51BAB2DAEE64D00214A4C /* Sources */,
+				D6C51BAC2DAEE64D00214A4C /* Frameworks */,
+				D6C51BAD2DAEE64D00214A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C51BB12DAEE64D00214A4C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6C51BB22DAEE64D00214A4C /* RuvoUITests */,
+			);
+			name = RuvoUITests;
+			packageProductDependencies = (
+			);
+			productName = RuvoUITests;
+			productReference = D6C51BAF2DAEE64D00214A4C /* RuvoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C51B902DAEE64A00214A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D6C51B972DAEE64A00214A4C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D6C51BA42DAEE64D00214A4C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D6C51B972DAEE64A00214A4C;
+					};
+					D6C51BAE2DAEE64D00214A4C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D6C51B972DAEE64A00214A4C;
+					};
+				};
+			};
+			buildConfigurationList = D6C51B932DAEE64A00214A4C /* Build configuration list for PBXProject "Ruvo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C51B8F2DAEE64A00214A4C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6C51B992DAEE64A00214A4C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D6A40BA32DC294B100073993 /* Products */;
+					ProjectRef = D6A40BA22DC294B100073993 /* Ruvo.xcodeproj */;
+				},
+				{
+					ProductGroup = D6A40BDC2DC29A0800073993 /* Products */;
+					ProjectRef = D6A40BDB2DC29A0800073993 /* Ruvo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D6C51B972DAEE64A00214A4C /* Ruvo */,
+				D6C51BA42DAEE64D00214A4C /* RuvoTests */,
+				D6C51BAE2DAEE64D00214A4C /* RuvoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C51B962DAEE64A00214A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C51BA32DAEE64D00214A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C51BAD2DAEE64D00214A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C51B942DAEE64A00214A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C51BA12DAEE64D00214A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C51BAB2DAEE64D00214A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C51BA72DAEE64D00214A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C51B972DAEE64A00214A4C /* Ruvo */;
+			targetProxy = D6C51BA62DAEE64D00214A4C /* PBXContainerItemProxy */;
+		};
+		D6C51BB12DAEE64D00214A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C51B972DAEE64A00214A4C /* Ruvo */;
+			targetProxy = D6C51BB02DAEE64D00214A4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6C51BB72DAEE64D00214A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6C51BB82DAEE64D00214A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C51BBA2DAEE64D00214A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K28QTH3VFL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth to connect to external sensors for live data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to keep you safe while running.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ruvo.Ruvo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C51BBB2DAEE64D00214A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K28QTH3VFL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth to connect to external sensors for live data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to keep you safe while running.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ruvo.Ruvo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C51BBD2DAEE64D00214A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.RuvoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruvo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ruvo";
+			};
+			name = Debug;
+		};
+		D6C51BBE2DAEE64D00214A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.RuvoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruvo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ruvo";
+			};
+			name = Release;
+		};
+		D6C51BC02DAEE64D00214A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.RuvoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ruvo;
+			};
+			name = Debug;
+		};
+		D6C51BC12DAEE64D00214A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.RuvoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ruvo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C51B932DAEE64A00214A4C /* Build configuration list for PBXProject "Ruvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C51BB72DAEE64D00214A4C /* Debug */,
+				D6C51BB82DAEE64D00214A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C51BB92DAEE64D00214A4C /* Build configuration list for PBXNativeTarget "Ruvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C51BBA2DAEE64D00214A4C /* Debug */,
+				D6C51BBB2DAEE64D00214A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C51BBC2DAEE64D00214A4C /* Build configuration list for PBXNativeTarget "RuvoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C51BBD2DAEE64D00214A4C /* Debug */,
+				D6C51BBE2DAEE64D00214A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C51BBF2DAEE64D00214A4C /* Build configuration list for PBXNativeTarget "RuvoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C51BC02DAEE64D00214A4C /* Debug */,
+				D6C51BC12DAEE64D00214A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C51B902DAEE64A00214A4C /* Project object */;
+}
